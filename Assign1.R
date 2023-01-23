@@ -41,11 +41,6 @@ ggplot(df, aes(x = Logit.CP, y = Logit.M2E.Anticipatory)) +    # Set the data an
   annotate("text", x = 4, y = 4,             # Add regression equation from "summary(fit)"
            label = "anti=-4.16-0.116*CP")
 
-# Basic scatterplot in base R.
-#plot(d$Phobia, d$Mathquiz)
-
-# Here we can see why it removed 15 observations (they are incomplete cases).
-#describe(d$Mathquiz)
 
 
 
